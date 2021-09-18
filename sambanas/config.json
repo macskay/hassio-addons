@@ -4,7 +4,7 @@
   "slug": "sambanas",
   "description": "Expose Home Assistant disc with SMB/CIFS",
   "url": "https://github.com/macskay/hassio-addons/tree/master/sambanas",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "arch": ["armhf", "armv7"],
   "startup": "services",
   "boot": "auto",
   "init": false,
@@ -61,7 +61,7 @@
       "disable_autoremove": "bool?"
     }
   },
-  "image": "dianlight/{arch}-addon-sambanas",
+  "image": "macskay/{arch}-addon-sambanas",
   "services": ["mqtt:want"],
   "udev": true,
   "usb": true,
