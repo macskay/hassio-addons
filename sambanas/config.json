@@ -1,6 +1,6 @@
 {
   "name": "Samba NAS",
-  "version": "9.5.1-nas2",
+  "version": "9.5.2-nas2-macskay",
   "slug": "sambanas",
   "description": "Expose Home Assistant disc with SMB/CIFS",
   "url": "https://github.com/macskay/hassio-addons/tree/master/sambanas",
